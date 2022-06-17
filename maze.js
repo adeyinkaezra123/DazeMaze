@@ -531,8 +531,7 @@ window.onload = function () {
   };
   sprite = new Image();
   sprite.src =
-    // "https://image.ibb.co/dr1HZy/Pf_RWr3_X_Imgur.png"
-    "https://i.ibb.co/m8rrbnT/banana.png" + "?" + new Date().getTime();
+    "https://i.ibb.co/smcskg4/monkey.png" + "?" + new Date().getTime();
   sprite.setAttribute("crossOrigin", " ");
   sprite.onload = function () {
     sprite = changeBrightness(1.2, sprite);
@@ -543,7 +542,7 @@ window.onload = function () {
 
   finishSprite = new Image();
   finishSprite.src =
-    "https://i.ibb.co/smcskg4/monkey.png" + "?" + new Date().getTime();
+    "https://i.ibb.co/m8rrbnT/banana.png" + "?" + new Date().getTime();
   finishSprite.setAttribute("crossOrigin", " ");
   finishSprite.onload = function () {
     finishSprite = changeBrightness(1.1, finishSprite);
